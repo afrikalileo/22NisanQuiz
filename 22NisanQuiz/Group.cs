@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal class Group
+    public class Group : BaseModel
     {
+        public Group(String Name)
+        {
+            Name = Name;
+        }
+        public DateTime EstablishmentDate { get; set; }
+        public List<Singer> Participater { get; set; }
+
     }
 }

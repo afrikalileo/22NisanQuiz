@@ -9,7 +9,7 @@ namespace _22NisanQuiz
     public interface ICal
     {
         void ICal(Song song)
-        {
+{
           
         }
 

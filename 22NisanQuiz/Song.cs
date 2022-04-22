@@ -16,12 +16,12 @@ namespace _22NisanQuiz
         public DateTime AnnouncementDate { get; set; }
         public DateTime ReleaseDate { get
             {
-                return  DateTime.AnnouncementDate.AddDays(10);
+                return  AnnouncementDate.AddDays(10);
 
 
             }
             }
         public DateTime Duration { get; set; }  
-
+     
     }
 }

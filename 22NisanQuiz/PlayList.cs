@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _22NisanQuiz
+namespace _22NisanQuiz;
 {
-    public class PlayList : BaseModel,ISample
-    {
-        public List<Song> SongList { get; set; }
-        public User UserPlayList { get; set; }
+public class PlayList : BaseModel, ISample
+{
+    public List<Song> SongList { get; set; }
+    public User UserPlayList { get; set; }
 
-        public List<CountofSongs> {get ;}
-
+    public int CountofSong { get
+        {
+            return SongList.Count;
+        }
     }
 }

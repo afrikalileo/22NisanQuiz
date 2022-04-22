@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal class Log
+    public enum Log
     {
-    }
+
+    low,
+    normal,
+    high,
+
+      
+    };
 }
