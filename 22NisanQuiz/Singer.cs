@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal class Singer
+    public class Singer : BaseModel
     {
+        public Singer SingerNameandSurname (string Name, string Surname)
+        {
+            Console.WriteLine(Name);
+            Console.WriteLine (Surname);    
+
+        }
+
+        public string Country { get; set; }
+        public DateTime BirthDay { get; set; }
+        
+
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal class FavSongs
+    public class FavSongs : BaseModel
     {
+        public List<Song> FavSonss { get; set; }
+        public User UserFavs { get; set; }
+
+
     }
 }

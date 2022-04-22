@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal interface ISample
+    public interface ISample
     {
+        public DateTime LastPlayedDt { get; set; }
+
     }
 }

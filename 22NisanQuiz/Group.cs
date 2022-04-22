@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    public interface ICal
+    internal class Group
     {
-        void ICal(Song song)
-        {
-          
-        }
-
     }
-} 
+}

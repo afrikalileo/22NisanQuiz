@@ -1,0 +1,5 @@
+C:\Users\Z004J8RK\Desktop\quizler\22NisanQuiz\22NisanQuiz\obj\Debug\net6.0\22NisanQuiz.csproj.AssemblyReference.cache
+C:\Users\Z004J8RK\Desktop\quizler\22NisanQuiz\22NisanQuiz\obj\Debug\net6.0\22NisanQuiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Z004J8RK\Desktop\quizler\22NisanQuiz\22NisanQuiz\obj\Debug\net6.0\22NisanQuiz.AssemblyInfoInputs.cache
+C:\Users\Z004J8RK\Desktop\quizler\22NisanQuiz\22NisanQuiz\obj\Debug\net6.0\22NisanQuiz.AssemblyInfo.cs
+C:\Users\Z004J8RK\Desktop\quizler\22NisanQuiz\22NisanQuiz\obj\Debug\net6.0\22NisanQuiz.csproj.CoreCompileInputs.cache

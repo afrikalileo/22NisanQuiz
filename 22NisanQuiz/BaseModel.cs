@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal class BaseModel
+    public abstract class BaseModel
     {
+        public int Id { get; set; }
+        public DateTime AddDate { get; set; } = DateTime.Now;
     }
 }

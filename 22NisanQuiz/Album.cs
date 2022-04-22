@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal class Album
+    public class Album : BaseModel
     {
+        public string AlbumsName { get; set; }
+        public List<Song> InnerAlbum { get; set; }
+        public int CountofSongs { get; }
+
+        public Singer InnerAlbumSinger { get; set; }
+
+        public string DesingofAlbums { get; set; }
+
     }
 }

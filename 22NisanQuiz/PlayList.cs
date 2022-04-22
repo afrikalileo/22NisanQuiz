@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace _22NisanQuiz
 {
-    internal class PlayList
+    public class PlayList : BaseModel,ISample
     {
+        public List<Song> SongList { get; set; }
+        public User UserPlayList { get; set; }
+
+        public List<CountofSongs> {get ;}
+
     }
 }
